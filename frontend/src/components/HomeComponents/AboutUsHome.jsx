@@ -13,7 +13,7 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <section className="w-full py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+    <section className="w-full py-12 sm:py-16 md:py-20 lg:py-28 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1600px] mx-auto">
 
         {/* Two Div Boxes Container */}

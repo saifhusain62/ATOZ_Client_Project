@@ -84,7 +84,7 @@ const GetStartedSteps = () => {
   }, []);
 
   return (
-    <section className="w-full bg-white py-16 sm:py-20 md:py-24 overflow-hidden font-poppins">
+    <section className="w-full bg-white py-16 sm:py-20 md:py-28 overflow-hidden font-poppins">
       <div className="max-w-[1320px] mx-auto px-5 sm:px-8 md:px-12 lg:px-16">
         {/* Heading */}
         <div className="mb-16 sm:mb-20 md:mb-24" data-aos="fade-up">

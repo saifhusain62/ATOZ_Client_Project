@@ -6,6 +6,8 @@ import ConstructionSection from '../components/HomeComponents/ConstructionHome'
 import HomeservicesSection from '../components/HomeComponents/Homeservices'
 import GetStartedSteps from '../components/HomeComponents/StepSectionHome'
 import HomeTestimonialsection from  '../components/HomeComponents/HomeTestimonial'
+import FaqSection from '../components/HomeComponents/FaqHomesection'
+import ContactHomeSection from '../components/HomeComponents/HomeContact'
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
      <HomeservicesSection/>
      <GetStartedSteps/>
      <HomeTestimonialsection/>
+     <FaqSection/>
+     <ContactHomeSection/>
      
     </div>
   )
