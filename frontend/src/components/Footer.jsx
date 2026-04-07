@@ -7,10 +7,11 @@ import {
 } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
 import A2Z from '../assets/A2Z.png'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="relative bg-white overflow-hidden">
+    <footer className="relative bg-white overflow-hidden py-12 mt-5">
       {/* Background A2Z */}
       <div className="absolute inset-0 flex items-start justify-center pointer-events-none select-none">
        <img src={A2Z} alt="" />
@@ -114,12 +115,15 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
+                {/* <a
                   href="#"
                   className="hover:text-[#6039e3] transition-colors duration-300"
                 >
                   Privacy Policy
-                </a>
+                </a> */}
+                <Link to="/privacy-policy" className="hover:text-[#6039e3] transition-colors duration-300">
+                   Privacy Policy
+                </Link>
               </li>
               <li>
                 <a
@@ -149,10 +153,10 @@ const Footer = () => {
 
               <p>
                 <a
-                  href="mailto:vendors@nexgenpmllc.com"
+                  href="mailto:clients@azzrepro.com"
                   className="hover:text-[#6039e3] transition-colors duration-300"
                 >
-                  vendors@nexgenpmllc.com
+                  clients@azzrepro.com
                 </a>
               </p>
             </div>
@@ -161,9 +165,20 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="mt-20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-[14px] text-[#a7a7a7]">
-          <p>© 2026 A2Z Real Estate Pro. All rights reserved.</p>
-          <p>Design By Relyn LLC.</p>
-        </div>
+  <p>© 2026 A2Z Real Estate Pro. All rights reserved.</p>
+  <p>
+    Design Develop and Maintain by{" "}
+    <a 
+      href="https://relyn.io/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-[#a7a7a7] hover:text-gray-900 underline"
+    >
+      Relyn LLC
+    </a>
+    .
+  </p>
+</div>
       </div>
     </footer>
   );

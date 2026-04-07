@@ -8,89 +8,106 @@ const PrivacyPolicy = () => {
         
         <div className="space-y-6 text-gray-700">
           <section>
-            <p className="text-sm text-gray-500 mb-4">Last updated: {new Date().toLocaleDateString()}</p>
+            <p className="text-sm text-gray-500 mb-4">Effective Date: 01-01-2024</p>
             <p>
-              This Privacy Policy describes how we collect, use, and handle your information when you use our services.
+              AtoZ RealEstatePro LLC ("we", "us", "our") values your privacy and is committed to protecting your personal information. 
+              This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website{' '}
+              <a href="" className="text-blue-600 hover:underline">
+               
+              </a>{' '}
+              or provide us with your personal information.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">1. Information We Collect</h2>
-            <p>
-              We collect information you provide directly to us, such as when you create an account, 
-              use our services, or communicate with us. This may include your name, email address, 
-              and other contact information.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">2. How We Use Your Information</h2>
-            <p>
-              We use the information we collect to:
-            </p>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">Information We Collect</h2>
+            <p>We may collect the following types of information:</p>
             <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
-              <li>Provide, maintain, and improve our services</li>
-              <li>Send you technical notices and support messages</li>
-              <li>Respond to your comments and questions</li>
-              <li>Monitor and analyze trends and usage</li>
+              <li><strong>Personal Information:</strong> First and last name, phone number, email address, and physical address from forms on our website.</li>
+              <li><strong>Usage Data:</strong> Information about how you interact with our website, including IP address, browser type, pages visited, and duration of your visit.</li>
+              <li><strong>Cookies and Tracking Technologies:</strong> We use cookies and similar technologies to enhance your browsing experience. You can control cookies via your browser settings.</li>
+              <li><strong>Text Message Communications:</strong> We may communicate with you via text messages about our services. Normal messaging rates apply, and message frequency may vary. Mobile carriers are not liable for delayed or undelivered messages.</li>
+            </ul>
+            <p className="mt-2">
+              No mobile information will be shared with third parties/affiliates for marketing or promotional purposes. All other categories, excluding text messaging opt-in data, are also confidential.
+            </p>
+            <p className="mt-2">
+              <strong>Opt-out of text message communications:</strong> Reply STOP to any message or contact us at{' '}
+              <a href="mailto:clients@azzrepro.com" className="text-blue-600 hover:underline">clients@azzrepro.com</a>. 
+              This stops messages from that number but you may still receive non-marketing messages from other numbers.
+            </p>
+            <p className="mt-2">
+              <strong>Opt-out of marketing communications:</strong> Follow the unsubscribe instructions in emails or contact us at{' '}
+              <a href="mailto:clients@azzrepro.com" className="text-blue-600 hover:underline">clients@azzrepro.com</a>.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">Use of Your Information</h2>
+            <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
+              <li>Provide and maintain our website and services</li>
+              <li>Respond to inquiries and communicate with you</li>
+              <li>Personalize your experience on our website</li>
+              <li>Improve our website and services</li>
+              <li>Detect, prevent, and address technical issues</li>
+              <li>Comply with legal obligations</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">3. Information Sharing</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">Disclosure of Your Information</h2>
             <p>
-              We do not share your personal information with third parties except as described in this policy. 
-              We may share information with service providers who perform services on our behalf.
+              We do not share, sell, rent, or disclose your personal information except in these circumstances:
+            </p>
+            <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
+              <li><strong>Your Consent:</strong> If you have explicitly consented.</li>
+              <li><strong>Legal Obligations:</strong> To comply with laws or governmental requests.</li>
+              <li><strong>Protection of Rights and Property:</strong> To protect our rights, agreements, and policies.</li>
+              <li><strong>Business Transfers:</strong> During mergers, acquisitions, restructuring, or sales of assets.</li>
+            </ul>
+            <p className="mt-2">
+              All mobile information and text messaging opt-in data remain strictly confidential and are never shared for marketing.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">4. Data Security</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">Security of Your Information</h2>
             <p>
-              We take reasonable measures to help protect your personal information from loss, theft, 
-              misuse, unauthorized access, disclosure, alteration, and destruction.
+              We take reasonable measures to protect your personal information, but no method of transmission or storage is completely secure. Absolute security cannot be guaranteed.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">5. Cookies</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">Your Rights</h2>
             <p>
-              We use cookies and similar tracking technologies to track activity on our service and 
-              hold certain information to improve and analyze our service.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">6. Your Rights</h2>
-            <p>
-              You have the right to access, update, or delete your personal information at any time. 
-              You can also opt-out of receiving promotional communications from us.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">7. Children's Privacy</h2>
-            <p>
-              Our services are not directed to children under 13. We do not knowingly collect personal 
-              information from children under 13.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">8. Changes to This Policy</h2>
-            <p>
-              We may update this Privacy Policy from time to time. We will notify you of any changes 
-              by posting the new Privacy Policy on this page.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">9. Contact Us</h2>
-            <p>
-              If you have any questions about this Privacy Policy, please contact us at:
+              Under New York State law, you have rights including access, correction, deletion, and objection regarding your personal information.
             </p>
             <p className="mt-2">
-              Email: <a href="mailto:privacy@example.com" className="text-blue-600 hover:underline">privacy@example.com</a>
+              To exercise these rights or ask questions about our privacy practices, contact us using the information below.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">Changes to This Privacy Policy</h2>
+            <p>
+              We may update this Privacy Policy to reflect changes in practices or legal requirements. Updated policies will be posted on our website with an updated effective date.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">Contact Us</h2>
+            <p>
+              AtoZ RealEstatePro LLC<br/>
+              6107 Thomas Dr.<br/>
+              Springfield, VA 22150<br/>
+              Tx-75078, USA
+            </p>
+            <p className="mt-2">
+              Email: <a href="mailto:clients@azzrepro.com" className="text-blue-600 hover:underline">clients@azzrepro.com</a><br/>
+              Phone: 
+              <br/>
+              <a href="tel:+15712026607" className="text-blue-600 hover:underline">571 202-6607</a><br/>
+              <a href="tel:+12764447023" className="text-blue-600 hover:underline">276 444-7023</a>
             </p>
           </section>
         </div>
